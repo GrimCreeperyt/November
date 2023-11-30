@@ -1,22 +1,37 @@
 /* Fancy Scroll */
 ::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
-    width: 10px;
+::-webkit-scrollbar-thumb:hover {
+  width: 10px;
   }
   
-  ::-webkit-scrollbar-track {
-    background: white;
+::-webkit-scrollbar-track {
+  background: white;
   }
   
-  ::-webkit-scrollbar-thumb {
-    background: #888;
+::-webkit-scrollbar-thumb {
+  background: #888;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-    border-radius: 10px;
-    width: 20px;
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+  width: 20px;
   }
+
+img.chicken:hover {
+  animation-name: chik;
+  animation-iteration-count: 7;
+  animation-duration: 50ms;
+}
+
+@keyframes chik {
+  33% {
+    rotate: 15deg;
+  }
+  66% {
+    rotate: -15deg;
+  }
+}
