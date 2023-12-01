@@ -2,8 +2,7 @@
 audio.play();*/
 
 var playBtn = document.getElementById('play'),
-  resetBtn = document.getElementById('reset'),
-  hearbeat = document.getElementById('heartbeat')
+  hearbeat = document.getElementById('cluck')
 	audios = document.querySelectorAll('audio');
 console.log(audios);
 
@@ -16,15 +15,6 @@ playBtn.addEventListener('mouseover', function() {
 }, false);
 
 playBtn.addEventListener('mouseleave', function() {
-  heartbeat.pause();
-  heartbeat.currentTime = 0;
-}, false);
-
-resetBtn.addEventListener('mouseover', function() {
-    heartbeat.play();
-}, false);
-
-resetBtn.addEventListener('mouseleave', function() {
   heartbeat.pause();
   heartbeat.currentTime = 0;
 }, false);
