@@ -2,7 +2,7 @@
 audio.play();*/
 
 var playBtn = document.getElementById('play'),
-  hearbeat = document.getElementById('cluck')
+  heartbeat = document.getElementById('cluck')
 	audios = document.querySelectorAll('audio');
 console.log(audios);
 

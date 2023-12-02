@@ -35,3 +35,7 @@ img.chicken:hover {
     rotate: -15deg;
   }
 }
+
+body {
+  background-color: blanchedalmond;
+}
