@@ -1,8 +1,7 @@
-/*var audio = document.getElementsByTagName("audio")[0];
-audio.play();*/
+// Allows for audio to be played
 
 var playBtn = document.getElementById('play'),
-  heartbeat = document.getElementById('cluck')
+  cluck = document.getElementById('cluck')
 	audios = document.querySelectorAll('audio');
 console.log(audios);
 
@@ -15,6 +14,6 @@ playBtn.addEventListener('mouseover', function() {
 }, false);
 
 playBtn.addEventListener('mouseleave', function() {
-  heartbeat.pause();
-  heartbeat.currentTime = 0;
+  cluck.pause();
+  cluck.currentTime = 0;
 }, false);
