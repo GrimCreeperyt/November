@@ -44,12 +44,12 @@ img.chicken:hover {
   background-color: antiquewhite;
 }
 
-.almond, .white {
+.card {
   border-width: 10px;
 }
 
 .button-almond {
-  color: #fff;
+  color: black;
   background-color: antiquewhite;
   border-color: black;
 }
@@ -90,4 +90,18 @@ img.chicken:hover {
 
 .testv {
   border-width: 10px;
+}
+
+.scale-big:hover {
+  transition-delay: 250ms;
+  transition-duration: 600s;
+  scale: 5000%;
+}
+
+img {
+  margin-top: 3px;
+}
+
+.bb {
+  border-color: black;
 }
